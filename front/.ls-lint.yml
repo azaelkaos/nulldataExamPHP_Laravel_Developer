@@ -1,0 +1,20 @@
+ls:
+  .js: kebab-case
+  .dir: kebab-case | point.case
+  .vue: regex:([A-Z][a-z0-9]+){2,}
+  src:
+    .js: camelCase | kebab-case
+
+  src/api:
+    .js: point.case | camelCase
+  src/**/layouts:
+    .vue: regex:([A-Z][a-z0-9]+){1,}Layout$
+
+  src/**/views:
+    .vue: regex:([A-Z][a-z0-9]+){1,}View$
+
+ignore:
+  - .git
+  - node_modules
+  - vite.config.js
+  - .ls-lint.plugin.js
