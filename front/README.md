@@ -1,6 +1,8 @@
-# hotels
+# Vue + Vite
 
 This template should help get you started developing with Vue 3 in Vite.
+
+This is for Exam porpuses, not have to be used to production environments.
 
 ## Recommended IDE Setup
 
